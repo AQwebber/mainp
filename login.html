@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up/Log in</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+<!--<div class="main-label">
+  <h2>SIGN UP HERE!</h2>
+</div>-->
+
+<div class="form-main-div">
+  
+  <div class="main-label"><h1><b id="front">SIGN</b><b id="end">UP HERE!</b></h1></div>
+  
+  <form action="index.html">
+    <input required="required" id="name" class="inputs" type="text" placeholder="Enter your name..."><br><br>
+    <input class="inputs" id="age" onclick="age()" type="number" placeholder="Enter your age..." required="required" value="0"><br><br>
+    <input required="required" id="pass" type="password" class="inputs" placeholder="Enter your password..." value="(none)">
+    <br><br>
+    <button onclick="login()" id="btn1" type="submit">Sign Up</button><button onclick="showPass()" id="btn2" type="button">Show</button>
+    
+  </form>
+  
+  
+</div>
+
+
+
+
+
+
+<script src="login.js"></script>
+</body>
+
+</html>

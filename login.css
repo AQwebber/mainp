@@ -1,0 +1,69 @@
+html{
+  font-size: 15px;
+  background-image: url('background2.jpeg')
+}
+
+div{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.form-main-div{
+  position: relative;
+  top: 60px;
+  background: blue;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background: none;
+  backdrop-filter: blur(1px);
+}
+
+.inputs{
+  padding: 15px;
+  outline: none;
+  background: transparent;
+  border: 2px solid aqua;
+  color: orange;
+  font-family: times new roman;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px red;
+}
+
+.inputs::placeholder{
+  font-size: 18px;
+  font-family: times new roman;
+  text-shadow: none;
+}
+
+button{
+  font-size: 18px;
+  font-family: times new roman;
+  padding: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid aqua;
+  color: orange;
+}
+#btn1{
+  width: 120px;
+}
+#btn2{
+  width: 80px;
+  color: red;
+}
+
+#front{
+  color: yellow;
+}
+#end{
+  color: red;
+}
+
+h1{
+  color: red;
+  font-family: times new roman;
+}

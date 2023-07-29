@@ -1,0 +1,180 @@
+body {
+    font-size: 15pt;
+    background-image: url('background2.jpeg');
+    font-family: times new roman;
+    backdrop-filter: blur(1px);
+}
+
+/*Main*/
+.main{
+  height: 70px;
+  border-radius:8px;
+  animation-name: boxx;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  background-size: 100%;
+}
+
+@keyframes boxx{
+  0%{
+    border: 1.2px solid orange;
+  }
+  100%{
+    border: 1.2px solid orange;
+  }
+}
+
+/*Menu button*/
+.menu-button .links{
+  display:none;
+}
+
+.menu-button{
+  font-size: 30px;
+  text-align: center;
+  background:transparent;
+  width:90px;
+  position: absolute;
+  top:25px;
+  left:15px;
+  color: orange;
+  animation-name: boxxx;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  border-radius: 7px;
+  border-style: double;
+  text-shadow: 2px 2px 3px yellow;
+}
+
+@keyframes boxxx{
+  0%{
+    box-shadow: 2px 2px 3px red;
+  }
+  50%{
+    box-shadow: 2px 2px 3px orange;
+  }
+  100%{
+    box-shadow: 2px 2px 3px red;
+  }
+}
+
+.menu-button:hover{
+  color: red;
+  width: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 2px darkred;
+  background: darkred;
+}
+
+.menu-button:hover .links{
+  display:block;
+}
+
+.links{
+  font-size: 25px;
+  padding:15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: darkgray;
+  text-shadow: 2px 2px 2px darkslategray;
+  backdrop-filter: blur 8px;
+  outline: .5px solid aqua;
+  border-radius: 7px;
+}
+
+.links:hover{
+  color:aqua;
+  backdrop-filter: blur(2px);
+  border-radius: 7px;
+  display: block;
+}
+
+/*Page name*/
+.page-name{
+  text-align: center;
+  width:130px;
+  position: absolute;
+  right: 20px;
+  top:25px;
+  font-size: 30px;
+  color: orange;
+  border-radius: 7px;
+  animation-name: pName;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-style: double;
+  text-shadow: 2px 2px 3px yellow;
+}
+
+@keyframes pName{
+  0%{
+    box-shadow: 3px 3px 4px red;
+  }
+  50%{
+    box-shadow: 3px 3px 4px orange;
+  }
+  100%{
+    box-shadow: 3px 3px 4px red;
+  }
+}
+
+#mc{
+  color: yellow;
+}
+#queen{
+  color: red;
+}
+
+/*href links*/
+#front{
+  color: yellow;
+}
+#end{
+  color: red;
+}
+
+/*hover of menu*/
+#start{
+  color: yellow;
+}
+#dest{
+  color: red;
+}
+
+
+/*content*/
+.surprise{
+  border-radius: 7px;
+  animation-name: forHer;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes forHer{
+  0%{
+    border: 1px solid orange;
+  }
+  50%{
+    border: 1px solid red;
+  }
+  100%{
+    border: 1px solid orange;
+  }
+}
+
+h3{
+  text-shadow: 2px 2px 2px orange;
+  text-align: center;
+}
+p{
+  color: orange;
+  text-indent: 1cm;
+  text-shadow: .5px .5px blue;
+  font-size: 15px;
+  text-align: center;
+}
+
+#content{
+  text-indent: 0cm;
+}

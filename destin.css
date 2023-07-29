@@ -1,0 +1,63 @@
+html{
+  color: white;
+  font-family: times new roman;
+  background: black;
+}
+
+h4{
+  display:none;
+}
+
+button{
+  padding: 10px;
+  width: 35%;
+  height:25%;
+  font-size: 80%;
+  font-family: times new roman;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  background:gray;
+  border: 2px solid darkred;
+  color: white;
+  border-radius: 7px;
+  text-shadow: 2px 2px 3px darkblue;
+}
+
+.my-message{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 80px;
+}
+
+.inside{
+  background-image:url('US.jpeg');
+  background-size: 100% 100%;
+  animation-name: myLove;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 7px;
+  width:100%;
+}
+
+@keyframes myLove{
+  0%{
+    border: 1px solid aqua;
+  }
+  50%{
+    border: 1px solid blue;
+  }
+  100%{
+    border: 1px solid aqua;
+  }
+}
+
+h4{
+  text-indent: .8cm;
+  color: white;
+  text-shadow: 2px 2px 2px darkblue;
+  padding: 5px;
+}
