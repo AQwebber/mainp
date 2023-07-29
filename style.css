@@ -33,7 +33,7 @@ body {
   font-size: 30px;
   text-align: center;
   background:transparent;
-  width:90px;
+  width:95px;
   position: absolute;
   top:25px;
   left:15px;
@@ -92,7 +92,7 @@ body {
 /*Page name*/
 .page-name{
   text-align: center;
-  width:130px;
+  width:145px;
   position: absolute;
   right: 20px;
   top:25px;
