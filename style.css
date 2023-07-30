@@ -80,6 +80,7 @@ body {
   backdrop-filter: blur 8px;
   outline: .5px solid aqua;
   border-radius: 7px;
+  text-align: center;
 }
 
 .links:hover{
